@@ -1,77 +1,175 @@
-/* Hidden comment: General styling for the entire website */
+/* Apply to the entire body */
 
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-image: url('background-image.jpg');
-    color: #333;
+    font-size: 16px;
+    color: black;
+    line-height: 1.4em;
 }
 
-header {
-    background-color: #f5f5f5;
-    padding: 10px 0;
-    text-align: center;
-    border-bottom: 2px solid #ccc;
+/* Apply to all headings */
+h1, h2, h3, h4, h5, h6 {
+    color: black;
+    background-color: #c6dccb;
+    font-weight: bold;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+/* Styling for the "page" div */
+.page {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 2px groove #ccc;
+    min-height: 100%;
+    background-color: #c6dccb;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 15px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-}
-
-nav ul li a:hover {
-    color: #007acc;
-}
-
-footer {
-    background-color: #f5f5f5;
-    text-align: center;
-    padding: 10px 0;
-    border-top: 2px solid #ccc;
-}
-
-main {
-    padding: 20px;
-}
-
-.two-column {
-    display: flex;
-}
-
-.column {
-    flex: 1;
-    margin: 10px;
+/* Styling for additional content boxes */
+.content-box {
+    margin: auto;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px groove #ddd;
+    background-color: white;
 }
 
-.portfolio-item {
-    margin: 20px 0;
+
+/* Apply to all paragraphs */
+p {
+  text-indent: 10px;
+  text-align: left;
+  letter-spacing: 1px;
+
 }
 
-.portfolio-item img {
-    width: 100%;
-    height: auto;
-    border: 1px solid #ccc;
-    padding: 5px;
+/* Apply to lists */
+
+ol {
+  background: white;
+  color: black;
+  text-align: left;
+  padding: 20px;
+  list-style-type: upper-roman
+}
+
+ul {
+  background: white;
+  color: black;
+  text-align: left;
+  padding: 20px;
+  list-style-type: square;
+}
+
+/* Apply to Figures */
+
+figure {
+    display: inline-block;
+    margin: 10px; 
+}
+figure img {
+    vertical-align: top;    
+}
+
+img {
+  width: 70%;
+  height: auto;
+}
+
+figure figcaption {
+    text-align: left ;
+    
+}
+
+/* Styling for forms */
+input[type="name"], input[type="text"] {
+    width: 30%;
+    padding: 10px;
     margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-/* Example of padding, margin, and border */
-.portfolio-item p {
-    margin: 10px;
+input[type="date"] {
+    padding: 10px 20px;
+    background-color: #845d88;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="frequency"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="choice"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #845d88;
+    cursor: pointer;
+}
+
+fieldset {
+    border: 1px solid #ddd;
     padding: 10px;
-    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+/* Apply to Tables */
+table {
+  table-layout: auto;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+  background-color: #c6dccb;
+  color: purple;
+  
+
+padding: 10px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: white;
+}
+
+tr.every_other {
+	background-color: #efefef;
+}
+
+tr:hover {
+	background-color: white;
+}
+
+
+/* Styles for fixed-width layout */
+.page.fixed-width {
+    width: 1200px;
+    margin: 10px;
+    background-color: #c6dccb;
+    position:fixed;
+}
+
+/* Styles for liquid layout */
+.page.liquid {
+    max-width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: 20px; left: 20px;
 }
