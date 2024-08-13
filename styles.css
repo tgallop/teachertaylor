@@ -4,13 +4,13 @@ body {
     font-size: 16px;
     color: black;
     line-height: 1.4em;
-    background-color: #F0F4F8; /* Very pale pastel blue */
+    background-color: #F0F4F8; /* Very pale blue */
 }
 
 /* Apply to all headings */
 h1, h2, h3, h4, h5, h6 {
     color: black;
-    background-color: #E6E9F0; /* Pale pastel purple */
+    background-color: #FFF4D5; /* Very pale yellow */
     font-weight: bold;
     font-family: 'Chunky', sans-serif; /* Black chunky font */
 }
@@ -21,17 +21,17 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 1200px;
     margin: 0 auto;
     padding: 30px;
-    border: 2px groove #D4A5A5; /* Light pastel red border */
+    border: 2px groove #FFDAB9; /* Very pale peach border */
     min-height: 100%;
-    background-color: #DAE7EF; /* Pale pastel blue */
+    background-color: #DAE7EF; /* Very pale blue */
 }
 
 /* Styling for additional content boxes */
 .content-box {
     margin: auto;
     padding: 10px;
-    border: 1px groove #E3E3F3; /* Very pale pastel purple */
-    background-color: #F3F6FB; /* Very pale pastel blue */
+    border: 1px groove #FFF8E1; /* Very pale yellow border */
+    background-color: #FFF8E1; /* Very pale yellow */
 }
 
 /* Apply to all paragraphs */
@@ -43,7 +43,7 @@ p {
 
 /* Apply to lists */
 ol {
-    background: #F9F9C5; /* Pale pastel yellow */
+    background: #FFF8E1; /* Very pale yellow */
     color: black;
     text-align: left;
     padding: 20px;
@@ -51,7 +51,7 @@ ol {
 }
 
 ul {
-    background: #E6F3E9; /* Pale pastel green */
+    background: #F0F4F8; /* Very pale blue */
     color: black;
     text-align: left;
     padding: 20px;
@@ -79,13 +79,13 @@ input[type="name"], input[type="text"] {
     width: 30%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #E6E9F0; /* Pale pastel purple */
+    border: 1px solid #FFF4D5; /* Very pale yellow border */
     border-radius: 5px;
 }
 
 input[type="date"] {
     padding: 10px 20px;
-    background-color: #FFD5D5; /* Very pale pastel red */
+    background-color: #FFDAB9; /* Very pale peach */
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -93,7 +93,7 @@ input[type="date"] {
 
 input[type="frequency"] {
     padding: 10px 20px;
-    background-color: #FFF4D5; /* Pale pastel peach */
+    background-color: #FFF4D5; /* Very pale yellow */
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -101,7 +101,7 @@ input[type="frequency"] {
 
 input[type="choice"] {
     padding: 10px 20px;
-    background-color: #D8F3DC; /* Pale pastel green */
+    background-color: #F0F4F8; /* Very pale blue */
     color: black;
     border: none;
     border-radius: 5px;
@@ -112,13 +112,13 @@ input[type="submit"] {
     border: none;
     border-radius: 5px;
     color: white;
-    background-color: #FFD5D5; /* Very pale pastel red */
+    background-color: #FFDAB9; /* Very pale peach */
     cursor: pointer;
 }
 
 /* Fieldset styling */
 fieldset {
-    border: 1px solid #E3E3F3; /* Very pale pastel purple border */
+    border: 1px solid #FFDAB9; /* Very pale peach border */
     padding: 10px;
     margin-bottom: 20px;
 }
@@ -129,7 +129,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     border: 1px solid black;
-    background-color: #E6E9F0; /* Pale pastel purple */
+    background-color: #FFF8E1; /* Very pale yellow */
     color: black;
     padding: 10px;
 }
@@ -141,22 +141,22 @@ th, td {
 }
 
 th {
-    background-color: #FFF4D5; /* Pale pastel peach */
+    background-color: #FFF4D5; /* Very pale yellow */
 }
 
 tr.every_other {
-    background-color: #F0F4F8; /* Very pale pastel blue */
+    background-color: #F0F4F8; /* Very pale blue */
 }
 
 tr:hover {
-    background-color: #F3F6FB; /* Very pale pastel blue */
+    background-color: #FFF8E1; /* Very pale yellow */
 }
 
 /* Styles for fixed-width layout */
 .page.fixed-width {
     width: 1200px;
     margin: 10px;
-    background-color: #DAE7EF; /* Pale pastel blue */
+    background-color: #DAE7EF; /* Very pale blue */
     position: fixed;
 }
 
