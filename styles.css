@@ -1,17 +1,18 @@
 /* Apply to the entire body */
-
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
     color: black;
     line-height: 1.4em;
+    background-color: #FFEBE8; /* Soft pastel pink background */
 }
 
 /* Apply to all headings */
 h1, h2, h3, h4, h5, h6 {
     color: black;
-    background-color: #c6dccb;
+    background-color: #FFCCF9; /* Soft pastel purple background */
     font-weight: bold;
+    font-family: 'Chunky', sans-serif; /* Black chunky font */
 }
 
 /* Styling for the "page" div */
@@ -20,64 +21,57 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 1200px;
     margin: 0 auto;
     padding: 30px;
-    border: 2px groove #ccc;
+    border: 2px groove #D4A5A5; /* Light pastel red border */
     min-height: 100%;
-    background-color: #c6dccb;
+    background-color: #C6DDF0; /* Soft pastel blue background */
 }
 
 /* Styling for additional content boxes */
 .content-box {
     margin: auto;
     padding: 10px;
-    border: 1px groove #ddd;
-    background-color: white;
+    border: 1px groove #F8C8DC; /* Light pastel pink border */
+    background-color: #FFF8D1; /* Soft pastel yellow background */
 }
-
 
 /* Apply to all paragraphs */
 p {
-  text-indent: 10px;
-  text-align: left;
-  letter-spacing: 1px;
-
+    text-indent: 10px;
+    text-align: left;
+    letter-spacing: 1px;
 }
 
 /* Apply to lists */
-
 ol {
-  background: white;
-  color: black;
-  text-align: left;
-  padding: 20px;
-  list-style-type: upper-roman
+    background: #F9F9C5; /* Soft pastel yellow background */
+    color: black;
+    text-align: left;
+    padding: 20px;
+    list-style-type: upper-roman;
 }
 
 ul {
-  background: white;
-  color: black;
-  text-align: left;
-  padding: 20px;
-  list-style-type: square;
+    background: #D3F9D8; /* Soft pastel green background */
+    color: black;
+    text-align: left;
+    padding: 20px;
+    list-style-type: square;
 }
 
 /* Apply to Figures */
-
 figure {
     display: inline-block;
     margin: 10px; 
 }
+
 figure img {
     vertical-align: top;    
-}
-
-img {
-  width: 70%;
-  height: auto;
+    width: 70%;
+    height: auto;
 }
 
 figure figcaption {
-    text-align: left ;
-    
+    text-align: left;
 }
 
 /* Styling for forms */
@@ -85,13 +79,13 @@ input[type="name"], input[type="text"] {
     width: 30%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #FFCCF9; /* Soft pastel purple border */
     border-radius: 5px;
 }
 
 input[type="date"] {
     padding: 10px 20px;
-    background-color: #845d88;
+    background-color: #FFABAB; /* Soft pastel red background */
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -99,7 +93,7 @@ input[type="date"] {
 
 input[type="frequency"] {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #FFDAC1; /* Soft pastel peach background */
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -107,6 +101,8 @@ input[type="frequency"] {
 
 input[type="choice"] {
     padding: 10px 20px;
+    background-color: #B5EAD7; /* Soft pastel green background */
+    color: black;
     border: none;
     border-radius: 5px;
 }
@@ -116,27 +112,26 @@ input[type="submit"] {
     border: none;
     border-radius: 5px;
     color: white;
-    background-color: #845d88;
+    background-color: #FFABAB; /* Soft pastel red background */
     cursor: pointer;
 }
 
+/* Fieldset styling */
 fieldset {
-    border: 1px solid #ddd;
+    border: 1px solid #FDCFF3; /* Light pastel pink border */
     padding: 10px;
     margin-bottom: 20px;
 }
 
 /* Apply to Tables */
 table {
-  table-layout: auto;
-  width: 100%;
-  border-collapse: collapse;
-  border: 1px solid black;
-  background-color: #c6dccb;
-  color: purple;
-  
-
-padding: 10px;
+    table-layout: auto;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    background-color: #FFCCF9; /* Soft pastel purple background */
+    color: black;
+    padding: 10px;
 }
 
 th, td {
@@ -146,24 +141,23 @@ th, td {
 }
 
 th {
-    background-color: white;
+    background-color: #FFDAC1; /* Soft pastel peach background */
 }
 
 tr.every_other {
-	background-color: #efefef;
+    background-color: #FFEBE8; /* Soft pastel pink background */
 }
 
 tr:hover {
-	background-color: white;
+    background-color: #FFF8D1; /* Soft pastel yellow background */
 }
-
 
 /* Styles for fixed-width layout */
 .page.fixed-width {
     width: 1200px;
     margin: 10px;
-    background-color: #c6dccb;
-    position:fixed;
+    background-color: #C6DDF0; /* Soft pastel blue background */
+    position: fixed;
 }
 
 /* Styles for liquid layout */
