@@ -4,7 +4,7 @@ body {
     font-size: 16px;
     color: black;
     line-height: 1.4em;
-    background-color: #F0F4F8; /* Very pale blue */
+    background-color: #DAE7EF; /* Very pale blue */
 }
 
 /* Apply to all headings */
@@ -51,7 +51,7 @@ ol {
 }
 
 ul {
-    background: #F0F4F8; /* Very pale blue */
+    background: #DAE7EF; /* Very pale blue */
     color: black;
     text-align: left;
     padding: 20px;
@@ -101,7 +101,7 @@ input[type="frequency"] {
 
 input[type="choice"] {
     padding: 10px 20px;
-    background-color: #F0F4F8; /* Very pale blue */
+    background-color: #DAE7EF; /* Very pale blue */
     color: black;
     border: none;
     border-radius: 5px;
@@ -145,7 +145,7 @@ th {
 }
 
 tr.every_other {
-    background-color: #F0F4F8; /* Very pale blue */
+    background-color: #DAE7EF; /* Very pale blue */
 }
 
 tr:hover {
