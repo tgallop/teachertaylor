@@ -236,3 +236,31 @@ tr:hover {
     text-decoration: underline;
 }
 </style>
+/* Style the heading and list container */
+.heading-group {
+    margin: 20px 0; /* Adds margin around the container */
+}
+
+/* Remove bullet points and display list items inline */
+.nav-list {
+    list-style-type: none; /* Removes bullet points */
+    margin: 0;             /* Removes default margin */
+    padding: 0;            /* Removes default padding */
+}
+
+/* Style list items */
+.nav-list li {
+    display: inline;       /* Display list items in a horizontal row */
+    margin-right: 15px;    /* Adds space between items */
+}
+
+/* Style links inside the list */
+.nav-list a {
+    text-decoration: underline; /* Underlines the text */
+    color: #000;           /* Sets link color */
+}
+
+/* Optional: Style the links on hover */
+.nav-list a:hover {
+    color: #007bff;        /* Changes color on hover */
+}
