@@ -193,3 +193,25 @@ tr:hover {
     text-decoration: underline; /* Adds underline on hover */
     color: #007bff;              /* Changes link color on hover */
 }
+/* Remove default list styles */
+.nav-list {
+    list-style-type: none; /* Removes bullet points */
+    margin: 0;             /* Removes default margin */
+    padding: 0;            /* Removes default padding */
+}
+
+/* Display list items in a horizontal row */
+.nav-list li {
+    display: inline;       /* Display list items inline */
+    margin-right: 10px;    /* Adds space between items */
+}
+
+/* Optional: Style the links */
+.nav-list a {
+    text-decoration: none; /* Removes underline from links */
+    color: #000;           /* Changes text color */
+}
+
+.nav-list a:hover {
+    text-decoration: underline; /* Adds underline on hover */
+}
