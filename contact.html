@@ -17,9 +17,8 @@
             margin: 0;
             padding: 0;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
-            height: 100vh;
         }
         .container {
             background-color: #fff;
@@ -28,6 +27,7 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             width: 100%;
             max-width: 600px;
+            margin-top: 20px;
         }
         h1 {
             margin-top: 0;
@@ -63,48 +63,76 @@
         .contact-info {
             margin-top: 20px;
         }
-        /* Remove extra CSS rules if not needed */
+        header {
+            width: 100%;
+            background: #f8f9fa;
+            padding: 10px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .nav-list {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .nav-list li {
+            margin-right: 20px;
+        }
+        .nav-list a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+        .nav-list a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px 0;
+            background: #f8f9fa;
+            text-align: center;
+            width: 100%;
+        }
     </style>
 </head>
 <body>
     <!-- Header & Nav -->
-    <div class="wrapper">
-        <header>
-            <h1>Welcome to My Teaching Portfolio</h1>
-            <nav>
-                <ul class="nav-list">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="experience.html">Experience</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="resources.html">Resources</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+    <header>
+        <h1>Welcome to My Teaching Portfolio</h1>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <div class="container">
-            <h1>Contact Me</h1>
-            <p>If you have any questions or new ideas, please feel free to reach out using the form below. I look forward to hearing from you!</p>
-            <form action="your-server-endpoint" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="subject">Subject:</label>
-                <input type="text" id="subject" name="subject" required>
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-
-                <input type="submit" value="Send Message">
-            </form>
-            <div class="contact-info">
-                <p>Alternatively, you can reach me at:</p>
-                <p>Email: <a href="mailto:taylorgallop22@gmail.com">taylorgallop22@gmail.com</a></p>
-                <p>Phone: +1 (555) 123-4567</p>
-            </div>
+    <div class="container">
+        <h1>Contact Me</h1>
+        <p>If you have any questions or new ideas, please feel free to reach out using the form below. I look forward to hearing from you!</p>
+        <form action="your-server-endpoint" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <input type="submit" value="Send Message">
+        </form>
+        <div class="contact-info">
+            <p>Alternatively, you can reach me at:</p>
+            <p>Email: <a href="mailto:taylorgallop22@gmail.com">taylorgallop22@gmail.com</a></p>
+            <p>Phone: +1 (555) 123-4567</p>
         </div>
     </div>
 
@@ -113,3 +141,4 @@
     </footer>
 </body>
 </html>
+
